@@ -107,21 +107,14 @@ run(){
     fi
 
     if ${export_theme}; then
-        # Create archives
-        echo "Making the archives for ${theme_name}..."
-        {
-            tar -zcf "${theme_name}.tar.gz" "${theme_name}/"
-            zip -r "${theme_name}-PNGs.zip" pngs/
-        } > /dev/null
+        archive_filename="${theme_name}.tar.gz"
 
-        # Move the archives to the right folder
-        archives="${theme_name}-PNGs.zip ${theme_name}.tar.gz"
-        for archive in ${archives}
-        do
-            rm -rf "../archives/${archive}"
-            mv "./${archive}" ../archives/
-            sha256sum "../archives/${archive}" >> ../archives/checksums
-        done
+        # Create archives
+        echo "Making the archive for ${theme_name}..."
+        {
+            tar -zcf "../archives/${archive_filename}" "${theme_name}/"
+        } > /dev/null
+        sha256sum "../archives/${archive_filename}" >> ../archives/checksums
     fi
 
     if [ -d "../xcursors/${theme_name}" ]; then
