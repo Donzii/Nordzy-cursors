@@ -1,7 +1,7 @@
 # Nordzy-Cursors
 
 <p align="center">
-	<img src="./art/logo.png" alt="Nordzy-cursors logo">
+	<img src="./resources/logo.png" alt="Nordzy-cursors logo">
 </p>
 <p align="center">
 	<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/alvatip/Nordzy-cursors/total?color=brightgreen"> 
@@ -15,8 +15,8 @@ Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color pal
 
 ## Preview
 
-![Nordzy dark icons](./art/preview-black.png)
-![Nordzy white icons](./art/preview-white.png)
+![Nordzy dark icons](./resources/preview-black.png)
+![Nordzy white icons](./resources/preview-white.png)
 
 
 ## Installation
