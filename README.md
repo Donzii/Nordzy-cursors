@@ -96,6 +96,13 @@ To install the cursor theme on windows:
 2. Extract the .zip file
 3. In the resulting folder, right click on the file "install.inf" and in the option choose "install"
 
+> To use one of the catpuccin variants, you need to fetch the cursors directly from the repository
+
+Clone the repo with git, or download `https://github.com/guillaumeboehm/Nordzy-hyprcursors/archive/refs/heads/main.zip` and extract it.
+1. Navigate to the `Windows_cursors` folder
+2. Navigate to the folder of the theme you want to use
+3. Right click on the file "install.inf" and in the option choose "install"
+
 ## MacOs
 
 To install the cursor theme on MacOs: 
@@ -104,6 +111,13 @@ To install the cursor theme on MacOs:
 3. Extract the .zip file
 4. With Mousecape installed on your system, double click the extracted .cape file to import it automatically in Mousecape
 5. Then, make the Nordzy cape active in Mousecape
+
+> To use one of the catpuccin variants, you need to fetch the cursors directly from the repository
+
+Clone the repo with git, or download `https://github.com/guillaumeboehm/Nordzy-hyprcursors/archive/refs/heads/main.zip` and extract it.
+1. Navigate to the `MacOs_cursors` folder
+2. With Mousecape installed on your system, double click the extracted .cape file to import it automatically in Mousecape
+3. Then, make the Nordzy cape active in Mousecape
 
 If you need any further information on how Mousecape works or if you have issues with it, please refer to the [project](https://github.com/alexzielenski/Mousecape) page and open an [issue](https://github.com/alexzielenski/Mousecape/issues) if needed.
 
