@@ -1,0 +1,3 @@
+[submodule "tools/CursorCreat"]
+	path = tools/CursorCreate
+	url = https://github.com/isaacrobinson2000/CursorCreate

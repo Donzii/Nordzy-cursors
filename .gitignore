@@ -6,3 +6,4 @@ tools/svgs/themes/*.svg.svg
 **/.tmp.svg
 **/.tmp_anim.svg
 hyprcursors/working_states/
+CC_venv/

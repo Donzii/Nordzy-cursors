@@ -21,6 +21,10 @@ Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color pal
 
 ## Installation
 
+> [!NOTE]
+> Archives are only provided for the standard black and white color variants.
+> To use one of the catpuccin color variants, install manually.
+
 ## Linux
 
 ### System package (recommended)
@@ -64,10 +68,6 @@ tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
 tar -zxvf Nordzy-cursors-white.tar.gz -C /usr/share/icons/
 ```
 
-> [!NOTE]
-> Archives are only provided for the standard black and white color variants.
-> To use one of the catpuccin color variants, install manually.
-
 ### Hyprcursor installation
 
 #### Installer
@@ -92,21 +92,23 @@ sudo rm -r /usr/share/icons/Nordzy-cursors*
 ## Windows
 
 To install the cursor theme on windows: 
-1. Download "nordzy_cursors_windows.zip"
+1. Download one of the "Nordzy_cursors*_windows.zip" from the release section
 2. Extract the .zip file
-3. In the folder, right click on the file "install.inf" and in the option choose "install"
+3. In the resulting folder, right click on the file "install.inf" and in the option choose "install"
 
 ## MacOs
 
 To install the cursor theme on MacOs: 
 1. Install [Mousecape](https://github.com/alexzielenski/Mousecape/releases)
-2. Download and extract the Nordzy.cape.zip
-3. With Mousecape installed on your system, double click the extracted .cape file to import it automatically in Mousecape
-4. Then, make the Nordzy cape active in Mousecape
+2. Download one of the "Nordzy_cursors*_macos.zip" from the release section
+3. Extract the .zip file
+4. With Mousecape installed on your system, double click the extracted .cape file to import it automatically in Mousecape
+5. Then, make the Nordzy cape active in Mousecape
 
 If you need any further information on how Mousecape works or if you have issues with it, please refer to the [project](https://github.com/alexzielenski/Mousecape) page and open an [issue](https://github.com/alexzielenski/Mousecape/issues) if needed.
 
 ## Also available on Pling
+### This is not maintained anymore.
 <p align="left">
   <a href="https://www.pling.com/p/1571937/" >
     <img title="Nordzy-cursors Pling Store" width="25%" src="https://imgur.com/VxSgrWw.png">
