@@ -2,9 +2,6 @@
 
 script_dir="$(realpath "$(dirname "${0}")")"
 
-svg_template_main="${script_dir}/svgs/nordzy-templates/Nordzy-cursors-template.svg"
-svg_template_spinner="${script_dir}/svgs/nordzy-templates/Nordzy-cursors-spinner-template.svg"
-
 # Display ascii art
 ascii_art() {
     cat < "${script_dir}/../resources/nordzy-ascii-art.txt"
@@ -180,11 +177,24 @@ while [[ "$#" -gt 0 ]]; do
             export_theme=true
             shift 1
             ;;
+        -l|--lefthand)
+            left_hand='-lefthand'
+            shift 1
+            ;;
+        -R|--righthand)
+            # a bit dumb but I don't want to do something smarter heh
+            shift 1
+            ;;
         *)
             echo "Unrecognized parameter ${1}"
             exit 1
             ;;
     esac
 done
+
+theme_name="${theme_name}${left_hand}"
+svg_template_main="${script_dir}/svgs/nordzy-templates/Nordzy-cursors${left_hand}-template.svg"
+svg_template_spinner="${script_dir}/svgs/nordzy-templates/Nordzy-cursors${left_hand}-spinner-template.svg"
+
 change_color
 run
