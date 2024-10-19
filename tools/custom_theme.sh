@@ -7,7 +7,7 @@ svg_template_spinner="${script_dir}/svgs/nordzy-templates/Nordzy-cursors-spinner
 
 # Display ascii art
 ascii_art() {
-    cat < "${script_dir}/../nordzy-ascii-art.txt"
+    cat < "${script_dir}/../resources/nordzy-ascii-art.txt"
     sleep 0.5
 }
 
