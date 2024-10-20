@@ -55,6 +55,7 @@ for theme in ${themes}; do
         zip "${archives_dir}/${theme_name}_macos.zip" "${macos_file}"
     fi
 done
+rm -rf "${tmp_themes_dir}"
 
 # Deactivate python env (I don't think I need to but eh)
 deactivate
