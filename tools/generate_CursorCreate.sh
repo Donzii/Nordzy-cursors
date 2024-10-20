@@ -6,7 +6,7 @@ cc_dir="${script_dir}/CursorCreate"
 cc_build_file="${script_dir}/CC_build.json"
 cc_script="${cc_dir}/CursorCreate/cursorcreate.py"
 
-themes_to_archive="Nordzy-cursors Nordzy-cursors-white"
+themes_to_archive="Nordzy-cursors Nordzy-cursors-white Nordzy-cursors-lefthand Nordzy-cursors-white-lefthand"
 
 # Setup python env
 pushd "${script_dir}" > /dev/null || exit 1

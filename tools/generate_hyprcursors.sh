@@ -5,7 +5,7 @@ hyprcursors_root="${script_dir}/../hyprcursors"
 hyprcursors_ws_dir="${hyprcursors_root}/working_states"
 hyprcursors_dir="${hyprcursors_root}/themes"
 archives_dir="${script_dir}/../archives"
-themes_to_archive="Nordzy-hyprcursors Nordzy-hyprcursors-white"
+themes_to_archive="Nordzy-hyprcursors Nordzy-hyprcursors-white Nordzy-hyprcursors-lefthand Nordzy-hyprcursors-white-lefthand"
 
 # INFO: Cleanup
 rm -rf "${hyprcursors_root}"
