@@ -4,14 +4,12 @@
 	<img src="./resources/logo.png" alt="Nordzy-cursors logo">
 </p>
 <p align="center">
-	<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/alvatip/Nordzy-cursors/total?color=brightgreen"> 
-	<img alt="GitHub" src="https://img.shields.io/github/license/alvatip/Nordzy-cursors?color=blue"> 
-	<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alvatip/Nordzy-cursors?color=9cf">
+	<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/guillaumeboehm/Nordzy-cursors/total?color=brightgreen"> 
+	<img alt="GitHub" src="https://img.shields.io/github/license/guillaumeboehm/Nordzy-cursors?color=blue"> 
+	<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/guillaumeboehm/Nordzy-cursors?color=9cf">
 </p>
 
 Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color palette and based on [Vimix](https://github.com/vinceliuice/Vimix-cursors) and [cz-Viator](https://github.com/charakterziffer/cursor-toolbox).
-
-### This fork contains the hyprcursors for all the Nordzy themes, see [Hyprcursor install](https://github.com/guillaumeboehm/Nordzy-hyprcursors?tab=readme-ov-file#hyprcursor-installation).
 
 ## Preview
 
@@ -130,7 +128,7 @@ If you need any further information on how Mousecape works or if you have issues
 </p>
 
 ## Other ressources
-[Nordzy](https://github.com/alvatip/Nordzy-icon) icon theme. </br> 
+[Nordzy](https://github.com/guillaumeboehm/Nordzy-icon) icon theme. </br> 
 [Nordic](https://github.com/EliverLara/Nordic) GTK theme.
 
 ### List of cursors and demos
@@ -143,7 +141,7 @@ If you need any further information on how Mousecape works or if you have issues
 
 ##  Issues
 
-If you have any issues, report them [here](https://github.com/alvatip/Nordzy-cursors/issues), I will be happy to help you!
+If you have any issues, report them [here](https://github.com/guillaumeboehm/Nordzy-cursors/issues), I will be happy to help you!
 
 ##  How can I help ?
 
